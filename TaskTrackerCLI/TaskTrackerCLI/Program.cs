@@ -1,4 +1,10 @@
-﻿#region Global variables
+﻿using TaskTrackerCLI.BLL.TaskLogic;
+
+#region Global variables
+
+// Interface to logic
+
+ITaskBll taskBll= new TaskBll();
 
 // This flag inficates if the user wants to exit
 var exit = false;

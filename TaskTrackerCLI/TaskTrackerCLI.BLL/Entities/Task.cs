@@ -12,7 +12,7 @@ Each task should have the following properties:
 Make sure to add these properties to the JSON file when adding a new task and update them when updating a task.
 */
 
-namespace TaskTrackerCLI.Entities
+namespace TaskTrackerCLI.BLL.Entities
 {
     public enum TaskStatus
     { 
